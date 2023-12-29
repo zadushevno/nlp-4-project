@@ -14,7 +14,7 @@
 *Файлы*: файлы находятся в папке [`aspect_extraction`](https://github.com/zadushevno/nlp-4-project/tree/main/aspect_extraction):
 * [`aspect_extraction_train.ipynb`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_extraction/aspect_extraction_train.ipynb) -- обучение
 * [`crf.pkl`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_extraction/crf.pkl) -- модель
-* [`aspect_extraction_test.ipynb`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_extraction/aspect_extraction_test.ipynb) -- тестирование; для запуска на тестовых данных необходимо указать путь к файлу в переменной `test_texts_path` в начале кода. Полученный в результате работы тетрадки файл `pred_aspects.txt` необходимо сохранить, чтобы затем использовать для определения тональности.
+* [`aspect_extraction_test.ipynb`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_extraction/aspect_extraction_test.ipynb) -- тестирование; для запуска на тестовых данных необходимо указать путь к файлу в переменной `test_texts_path` в начале кода. Полученный в результате работы тетрадки файл [`pred_aspects.txt`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_extraction/pred_aspects.txt) необходимо сохранить, чтобы затем использовать для определения тональности каждого вхождения.
 
 ## Aspect Sentiment Analysis
 
@@ -22,13 +22,13 @@
 
 *Результаты*: accuracy 0.84 на валидационном датасете при обучении
 
-*Ошибки*: из-за маленького количество both в тренировочном датасете, в результате both не появляется совсем
+*Ошибки*: из-за маленького количество both в тренировочном датасете, в полученном датасете both не появляется совсем
 
-*Файлы*: файлы находятся в папке `aspect_sentiment`:
-* `aspect_classification_train.ipynb` -- обучение
-*  `aspect_classification_test.ipynb` -- тестирование
+*Файлы*: файлы находятся в папке [`aspect_sentiment`](https://github.com/zadushevno/nlp-4-project/tree/main/aspect_sentiment):
+* [`aspect_classification_train.ipynb`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_sentiment/aspect_classification_train.ipynb) -- обучение
+* [`aspect_classification_test.ipynb`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_sentiment/aspect_classification_test.ipynb) -- тестирование
 
-Для запуска на тестовых данных необходимо в тетрадке `aspect_classification_test.ipynb` указать путь к файлу `pred_aspects.txt`, который получился в предыдущем шаге, и путь к файлу с текстами. Поскольку файл с весами получился очень большим, мы разместили модель на [гугл-диске](https://drive.google.com/drive/u/0/folders/1e8WjOU0U33uCS4XWpkWmb2F6G2aMXak2). Чтобы запустить тетрадку с моделью в колабе, нужно
+Для запуска на тестовых данных необходимо в тетрадке [`aspect_classification_test.ipynb`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_sentiment/aspect_classification_test.ipynb) указать путь к файлу [`pred_aspects.txt`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_extraction/pred_aspects.txt), который получился в предыдущем шаге, и путь к файлу с текстами. Поскольку файл с весами получился очень большим, мы разместили модель на [гугл-диске](https://drive.google.com/drive/u/0/folders/1e8WjOU0U33uCS4XWpkWmb2F6G2aMXak2). Чтобы запустить тетрадку с моделью в колабе, нужно
 * на гугл-диске зайти в "доступные мне"
 * нажать правой кнопкой мыши на папку absa-project, затем систематизировать < добавить ярлык
 * добавить ярлык на ваш гугл-диск
