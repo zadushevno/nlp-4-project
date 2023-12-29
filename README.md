@@ -42,7 +42,7 @@
 
 *Ошибки*
 
-*Файлы*: файлы находятся в папке [`categoty_sentiment`](https://github.com/zadushevno/nlp-4-project/tree/main/category_sentiment):
+*Файлы*: файлы находятся в папке [`category_sentiment`](https://github.com/zadushevno/nlp-4-project/tree/main/category_sentiment):
 
 ## Evaluation
 Evaluation находится вот в [этой тетрадке], нужно скачать полученные файлы и образцы и прописать к ним путь, чтобы заново ее запустить
