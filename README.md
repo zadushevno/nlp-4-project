@@ -40,9 +40,11 @@
 
 *Результаты*: accuracy 0.80
 
-*Проблемы*:
+*Проблемы*: алгоритм достаточно простой, практически как в бейзлайне, с небольшими улучшениями
 
-*Файлы*: файлы находятся в папке [`category_sentiment`](https://github.com/zadushevno/nlp-4-project/tree/main/category_sentiment):
+*Файлы*: файлы находятся в папке [`category_sentiment`](https://github.com/zadushevno/nlp-4-project/tree/main/category_sentiment)
+* [`pred_full_tone.ipynb`](https://github.com/zadushevno/nlp-4-project/blob/main/category_sentiment/pred_full_tone.ipynb) -- алогритм работы 
+* [`pred_full_results.txt`](https://github.com/zadushevno/nlp-4-project/blob/main/category_sentiment/pred_full_results.txt) -- результаты
 
 ## Evaluation
-Evaluation находится вот в [этой тетрадке](https://github.com/zadushevno/nlp-4-project/blob/main/Evaluation.ipynb), нужно скачать полученные файлы и образцы и прописать к ним путь, чтобы заново ее запустить
+Evaluation находится вот в [этой тетрадке](https://github.com/zadushevno/nlp-4-project/blob/main/Evaluation.ipynb), нужно скачать полученные файлы и образцы и прописать к ним путь, чтобы заново ее запустить. В результате, во всех трех частячх работы мы получили результаты заметно выше, чем в бейзлайне.
