@@ -11,10 +11,10 @@
 
 *Ошибки*: не-сущности выделяются лучше сущностей
 
-*Файлы*: файлы находятся в папке `aspect_extraction`:
-* `aspect_extraction_train.ipynb` -- обучение
-*  `crf.pkl` -- модель
-*  `aspect_extraction_test.ipynb` -- тестирование; для запуска на тестовых данных необходимо указать путь к файлу в переменной `test_texts_path` в начале кода. Полученный в результате работы тетрадки файл `pred_aspects.txt` необходимо сохранить, чтобы затем использовать для определения тональности.
+*Файлы*: файлы находятся в папке [`aspect_extraction`](https://github.com/zadushevno/nlp-4-project/tree/main/aspect_extraction):
+* [`aspect_extraction_train.ipynb`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_extraction/aspect_extraction_train.ipynb) -- обучение
+* [`crf.pkl`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_extraction/crf.pkl) -- модель
+* [`aspect_extraction_test.ipynb`](https://github.com/zadushevno/nlp-4-project/blob/main/aspect_extraction/aspect_extraction_test.ipynb) -- тестирование; для запуска на тестовых данных необходимо указать путь к файлу в переменной `test_texts_path` в начале кода. Полученный в результате работы тетрадки файл `pred_aspects.txt` необходимо сохранить, чтобы затем использовать для определения тональности.
 
 ## Aspect Sentiment Analysis
 
@@ -36,7 +36,8 @@
 
 ## Overall Sentiment Analysis
 
-Для определения тональности апекта в целом использован частотный метод: каких сентиментов больше, тот и приписывается, если pos и neg примерно одинаково, то приписывается both
+Для определения тональности апекта в целом использован частотный метод: каких сентиментов больше, тот и приписывается, если pos и neg примерно одинаково, то приписывается both.
+
 *Результаты*
 
 *Ошибки*
