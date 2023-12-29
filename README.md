@@ -47,4 +47,4 @@
 * [`pred_full_results.txt`](https://github.com/zadushevno/nlp-4-project/blob/main/category_sentiment/pred_full_results.txt) -- результаты
 
 ## Evaluation
-Evaluation находится вот в [этой тетрадке](https://github.com/zadushevno/nlp-4-project/blob/main/Evaluation.ipynb), нужно скачать полученные файлы и образцы и прописать к ним путь, чтобы заново ее запустить. В результате, во всех трех частячх работы мы получили результаты заметно выше, чем в бейзлайне.
+Evaluation находится вот в [этой тетрадке](https://github.com/zadushevno/nlp-4-project/blob/main/Evaluation.ipynb), нужно скачать полученные файлы и образцы и прописать к ним путь, чтобы заново ее запустить. В результате, во всех трех частях работы мы получили результаты заметно выше, чем в бейзлайне.
